@@ -136,7 +136,7 @@ const depoimentos = [
     nome: 'Carolina Silva',
     projeto: 'Cozinha + Dormitório',
     texto:
-      'Excelente qualidade, acabamento impecável e equipe muito atenciosa. Voltaria a fazer com a JÁ sem dúvida!',
+      'Excelente qualidade, acabamento impecável e equipe muito atenciosa. Voltaria a fazer com a JA sem dúvida!',
     rating: 5,
   },
   {
@@ -407,7 +407,7 @@ export default function Home() {
               </video>
               <div className="absolute inset-0 flex items-end bg-gradient-to-t from-black via-transparent to-transparent">
                 <div className="p-8 text-white">
-                  <h3 className="mb-2 text-2xl font-bold">JÁ Móveis Planejados</h3>
+                  <h3 className="mb-2 text-2xl font-bold">JA Móveis Planejados</h3>
                   <p className="text-lg opacity-90">Transformando sonhos em realidade</p>
                 </div>
               </div>
@@ -555,7 +555,7 @@ export default function Home() {
       <section className="bg-gray-50 px-4 py-20">
         <div className="mx-auto max-w-7xl">
           <h2 className="mb-12 text-center text-3xl font-bold text-gray-900 md:text-4xl">
-            Por Que Escolher a JÁ Móveis
+            Por Que Escolher a JA Móveis
           </h2>
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
@@ -580,7 +580,7 @@ export default function Home() {
             O Que Nossos Clientes Dizem
           </h2>
           <p className="mb-12 text-center text-gray-600">
-            Confira as experiências de quem já transformou seus ambientes com a JÁ Móveis
+            Confira as experiências de quem já transformou seus ambientes com a JA Móveis
           </p>
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">

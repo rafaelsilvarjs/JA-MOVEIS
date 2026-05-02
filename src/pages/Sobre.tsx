@@ -6,7 +6,7 @@ export default function Sobre() {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary to-green-700 text-white py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Sobre a JÁ Móveis</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Sobre a JA Móveis</h1>
           <p className="text-lg text-green-50">
             Transformando sonhos em realidade h× mais de 10 anos
           </p>
@@ -22,7 +22,7 @@ export default function Sobre() {
                 Nossa História
               </h2>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                A JÁ Móveis nasceu de uma convicção simples: <strong>um ambiente bem planejado transforma a forma como você vive</strong>.
+                A JA Móveis nasceu de uma convicção simples: <strong>um ambiente bem planejado transforma a forma como você vive</strong>.
               </p>
               <p className="text-gray-700 mb-4 leading-relaxed">
                 Especializados em móveis sob medida para residências e comerciais, desde o primeiro projeto mantemos uma forma de trabalhar que poucos se dispõem a ter: <strong>presença real, do projeto à instalação</strong>.
@@ -164,7 +164,7 @@ export default function Sobre() {
                 Seu navegador não suporta o elemento de vídeo.
               </video>
               <div className="absolute bottom-4 left-4 text-white">
-                <h3 className="text-xl font-bold mb-1">JÁ Móveis Planejados</h3>
+                <h3 className="text-xl font-bold mb-1">JA Móveis Planejados</h3>
                 <p className="text-sm opacity-90">Excelência em móveis sob medida</p>
               </div>
             </div>

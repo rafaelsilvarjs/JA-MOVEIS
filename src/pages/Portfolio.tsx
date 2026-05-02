@@ -186,7 +186,7 @@ export default function Portfolio() {
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="mb-6 text-3xl font-bold">Seu Projeto Pode Estar Aqui</h2>
           <p className="mb-8 text-lg text-green-50">
-            Transforme seu espaço com a JÁ Móveis. Solicite um orçamento gratuito agora.
+            Transforme seu espaço com a JA Móveis. Solicite um orçamento gratuito agora.
           </p>
           <a
             href={whatsappUrl}

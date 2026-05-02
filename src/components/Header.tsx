@@ -31,7 +31,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
             className="cursor-pointer"
           >
             <h1 className="text-2xl font-bold text-primary">
-              JÁ<span className="text-secondary"> móveis</span>
+              JA<span className="text-secondary"> móveis</span>
             </h1>
             <p className="text-xs text-gray-600">Móveis Planejados</p>
           </div>
@@ -55,7 +55,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
 
           {/* CTA Button */}
           <a
-            href="https://wa.me/5511987654321?text=Olá%20JÁ%20Móveis!%20Gostaria%20de%20um%20orçamento."
+            href="https://wa.me/5511987654321?text=Ol%C3%A1%20JA%20M%C3%B3veis!%20Gostaria%20de%20um%20or%C3%A7amento."
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:block bg-primary hover:bg-green-700 text-white px-6 py-2 rounded-lg transition-colors"
@@ -101,7 +101,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
               </button>
             ))}
             <a
-              href="https://wa.me/5511987654321?text=Olá%20JÁ%20Móveis!%20Gostaria%20de%20um%20orçamento."
+              href="https://wa.me/5511987654321?text=Ol%C3%A1%20JA%20M%C3%B3veis!%20Gostaria%20de%20um%20or%C3%A7amento."
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full mt-4 bg-primary hover:bg-green-700 text-white px-4 py-2 rounded text-center"

@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-8 grid grid-cols-1 gap-8 md:grid-cols-4">
           <div>
-            <h4 className="mb-4 text-lg font-bold text-primary">JÁ Móveis</h4>
+            <h4 className="mb-4 text-lg font-bold text-primary">JA Móveis</h4>
             <p className="text-sm text-gray-400">
               Especialistas em móveis planejados com qualidade, design e acabamento impecável.
             </p>
@@ -67,7 +67,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
-          <p>© {currentYear} JÁ Móveis Planejados. Todos os direitos reservados.</p>
+          <p>© {currentYear} JA Móveis Planejados. Todos os direitos reservados.</p>
           <p className="mt-2">
             <a href="#" className="transition hover:text-white">Política de Privacidade</a>
             {' '} | {' '}
