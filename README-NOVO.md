@@ -1,4 +1,4 @@
-# JÁ Móveis Planejados - Site Profissional
+﻿# JÁ Móveis Planejados - Site Profissional
 
 Um site moderno e responsivo para apresentar serviços de móveis planejados, desenvolvido com **React**, **TypeScript** e **Tailwind CSS**. Agora com **galeria de imagens** e **vídeos demonstrativos**!
 
@@ -126,7 +126,7 @@ src/
 
 ## 📞 Contato
 
-- **WhatsApp**: (11) 98765-4321
+- **WhatsApp**: (75) 98349-4179
 - **Email**: contato@jamoveis.com.br
 - **Localização**: São Paulo, SP
 
@@ -144,10 +144,10 @@ src/
 ## ⚙️ Customizações Necessárias
 
 Antes de publicar, substitua:
-1. **Contato WhatsApp** - Atualize `5511987654321` com seu número real
+1. **Contato WhatsApp** - Atualize `5575983494179` com seu número real
 2. **Email de Contato** - Substitua `contato@jamoveis.com.br`
 3. **Endereço** - Atualize "São Paulo, SP" pela sua localização
-4. **Número de Telefone** - Substitua `(11) 98765-4321`
+4. **Número de Telefone** - Substitua `(75) 98349-4179`
 5. **Vídeos** - Substitua URLs de exemplo pelos seus vídeos reais
 6. **Imagens** - Adicione fotos reais dos seus projetos
 7. **Nomes da Equipe** - Personalize com dados reais

@@ -1,4 +1,4 @@
-import { videoPorAmbiente } from '../data/videos';
+﻿import { videoPorAmbiente } from '../data/videos';
 
 export default function Sobre() {
   return (
@@ -320,7 +320,7 @@ export default function Sobre() {
             Pronto para Transformar Seu Espa×o?
           </h2>
           <a
-            href="https://wa.me/5511987654321?text=Ol%C3%A1%20J%C3%81%20Móveis!%20Gostaria%20de%20um%20orçamento."
+            href="https://wa.me/5575983494179?text=Ol%C3%A1%20JA%20M%C3%B3veis!%20Gostaria%20de%20um%20or%C3%A7amento."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-white text-primary font-bold px-8 py-3 rounded-lg hover:bg-green-50 transition"
@@ -332,3 +332,4 @@ export default function Sobre() {
     </div>
   );
 }
+

@@ -1,4 +1,4 @@
-export default function Footer() {
+﻿export default function Footer() {
   const currentYear = new Date().getFullYear();
   const instagramUrl = 'https://www.instagram.com/_japlanejados/';
 
@@ -26,7 +26,7 @@ export default function Footer() {
           <div>
             <h4 className="mb-4 text-lg font-bold">Contato</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Telefone: (11) 98765-4321</li>
+              <li>Telefone: (75) 98349-4179</li>
               <li>Email: contato@jamoveis.com.br</li>
               <li>São Paulo, SP</li>
               <li>Seg-Sex: 9h às 19h</li>
@@ -78,3 +78,4 @@ export default function Footer() {
     </footer>
   );
 }
+

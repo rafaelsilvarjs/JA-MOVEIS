@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+﻿import { useEffect, useState } from 'react';
 import { videoPorAmbiente } from '../data/videos';
 
 type ItemComVideo = {
@@ -21,7 +21,7 @@ type Destaque = {
 };
 
 const whatsappBase =
-  'https://wa.me/5511987654321?text=Ol%C3%A1%20J%C3%81%20M%C3%B3veis!%20Gostaria%20de%20um%20or%C3%A7amento.';
+  'https://wa.me/5575983494179?text=Ol%C3%A1%20JA%20M%C3%B3veis!%20Gostaria%20de%20um%20or%C3%A7amento.';
 
 const servicos: ItemComVideo[] = [
   {
@@ -719,3 +719,4 @@ export default function Home() {
     </div>
   );
 }
+

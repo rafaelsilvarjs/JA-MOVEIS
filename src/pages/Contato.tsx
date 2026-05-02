@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 
 export default function Contato() {
   const [formData, setFormData] = useState({
@@ -39,9 +39,9 @@ export default function Contato() {
   const contatoInfo = [
     {
       titulo: 'WhatsApp',
-      valor: '(11) 98765-4321',
+      valor: '(75) 98349-4179',
       icone: '💬',
-      link: 'https://wa.me/5511987654321',
+      link: 'https://wa.me/5575983494179',
     },
     {
       titulo: 'Email',
@@ -190,7 +190,7 @@ export default function Contato() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
-                  placeholder="(11) 98765-4321"
+                  placeholder="(75) 98349-4179"
                 />
               </div>
 
@@ -274,7 +274,7 @@ export default function Contato() {
             Entre em contato conosco pelo WhatsApp e receba um atendimento personalizado
           </p>
           <a
-            href="https://wa.me/5511987654321?text=Ol%C3%A1%20J%C3%81%20Móveis!%20Gostaria%20de%20um%20orçamento%20para%20meu%20projeto."
+            href="https://wa.me/5575983494179?text=Ol%C3%A1%20JA%20M%C3%B3veis!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20meu%20projeto."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-white text-primary font-bold px-8 py-3 rounded-lg hover:bg-green-50 transition"
@@ -286,3 +286,4 @@ export default function Contato() {
     </div>
   );
 }
+

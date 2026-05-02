@@ -1,8 +1,8 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { videoPorAmbiente } from '../data/videos';
 
 const whatsappUrl =
-  'https://wa.me/5511987654321?text=Ol%C3%A1%20J%C3%81%20M%C3%B3veis!%20Gostaria%20de%20ver%20mais%20projetos%20e%20solicitar%20um%20or%C3%A7amento.';
+  'https://wa.me/5575983494179?text=Ol%C3%A1%20JA%20M%C3%B3veis!%20Gostaria%20de%20ver%20mais%20projetos%20e%20solicitar%20um%20or%C3%A7amento.';
 
 const projetos = [
   {
@@ -234,3 +234,4 @@ export default function Portfolio() {
     </div>
   );
 }
+

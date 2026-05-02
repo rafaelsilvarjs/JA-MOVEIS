@@ -1,7 +1,7 @@
-import { videoPorAmbiente } from '../data/videos';
+﻿import { videoPorAmbiente } from '../data/videos';
 
 const whatsappUrl =
-  'https://wa.me/5511987654321?text=Ol%C3%A1%20J%C3%81%20M%C3%B3veis!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os.';
+  'https://wa.me/5575983494179?text=Ol%C3%A1%20JA%20M%C3%B3veis!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os.';
 
 const servicos = [
   {
@@ -162,3 +162,4 @@ export default function Servicos() {
     </div>
   );
 }
+

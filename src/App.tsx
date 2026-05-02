@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -37,7 +37,7 @@ function App() {
 
       {/* Botao WhatsApp Flutuante */}
       <a
-        href="https://wa.me/5511987654321?text=Ol%C3%A1%20J%C3%81%20M%C3%B3veis!%20Gostaria%20de%20um%20or%C3%A7amento."
+        href="https://wa.me/5575983494179?text=Ol%C3%A1%20JA%20M%C3%B3veis!%20Gostaria%20de%20um%20or%C3%A7amento."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-40 flex h-16 w-16 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_14px_30px_rgba(37,211,102,0.35)] ring-4 ring-white/20 transition duration-300 hover:scale-105 hover:bg-[#20ba5a]"
@@ -58,3 +58,4 @@ function App() {
 }
 
 export default App;
+

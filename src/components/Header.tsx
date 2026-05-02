@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 
 interface HeaderProps {
   currentPage: string;
@@ -55,7 +55,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
 
           {/* CTA Button */}
           <a
-            href="https://wa.me/5511987654321?text=Ol%C3%A1%20JA%20M%C3%B3veis!%20Gostaria%20de%20um%20or%C3%A7amento."
+            href="https://wa.me/5575983494179?text=Ol%C3%A1%20JA%20M%C3%B3veis!%20Gostaria%20de%20um%20or%C3%A7amento."
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:block bg-primary hover:bg-green-700 text-white px-6 py-2 rounded-lg transition-colors"
@@ -101,7 +101,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
               </button>
             ))}
             <a
-              href="https://wa.me/5511987654321?text=Ol%C3%A1%20JA%20M%C3%B3veis!%20Gostaria%20de%20um%20or%C3%A7amento."
+              href="https://wa.me/5575983494179?text=Ol%C3%A1%20JA%20M%C3%B3veis!%20Gostaria%20de%20um%20or%C3%A7amento."
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full mt-4 bg-primary hover:bg-green-700 text-white px-4 py-2 rounded text-center"
@@ -114,3 +114,4 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
     </header>
   );
 }
+
