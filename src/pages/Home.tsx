@@ -291,6 +291,10 @@ export default function Home() {
           muted
           loop
           playsInline
+          preload="auto"
+          onCanPlay={(event) => {
+            event.currentTarget.play().catch(() => undefined);
+          }}
         />
         <div className="absolute inset-0 bg-black/55" />
         <div className="relative z-10 flex h-full items-center">
@@ -390,6 +394,11 @@ export default function Home() {
                 autoPlay
                 muted
                 loop
+                playsInline
+                preload="auto"
+                onCanPlay={(event) => {
+                  event.currentTarget.play().catch(() => undefined);
+                }}
                 className="h-auto w-full"
                 poster="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&h=450&fit=crop"
                 src={videoPorAmbiente.institucional}
@@ -629,6 +638,12 @@ export default function Home() {
                 controls
                 autoPlay
                 muted
+                loop
+                playsInline
+                preload="auto"
+                onCanPlay={(event) => {
+                  event.currentTarget.play().catch(() => undefined);
+                }}
                 className="max-h-[70vh] w-full rounded"
                 src={videoModal}
               >

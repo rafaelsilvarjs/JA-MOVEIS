@@ -216,6 +216,12 @@ export default function Portfolio() {
                 controls
                 autoPlay
                 muted
+                loop
+                playsInline
+                preload="auto"
+                onCanPlay={(event) => {
+                  event.currentTarget.play().catch(() => undefined);
+                }}
                 className="max-h-[70vh] w-full rounded"
                 src={videoModal}
               >

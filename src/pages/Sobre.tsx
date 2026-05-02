@@ -152,6 +152,11 @@ export default function Sobre() {
                 autoPlay
                 muted
                 loop
+                playsInline
+                preload="auto"
+                onCanPlay={(event) => {
+                  event.currentTarget.play().catch(() => undefined);
+                }}
                 className="w-full h-auto"
                 poster="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=450&fit=crop&crop=entropy&cs=tinysrgb"
                 src={videoPorAmbiente.institucional}

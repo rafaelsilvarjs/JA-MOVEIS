@@ -128,6 +128,11 @@ export default function Servicos() {
               autoPlay
               muted
               loop
+              playsInline
+              preload="auto"
+              onCanPlay={(event) => {
+                event.currentTarget.play().catch(() => undefined);
+              }}
               className="h-auto w-full"
               poster="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=800&h=450&fit=crop"
               src={videoPorAmbiente.processo}
