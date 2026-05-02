@@ -50,6 +50,12 @@ export default function Contato() {
       link: 'mailto:contato@jamoveis.com.br',
     },
     {
+      titulo: 'Instagram',
+      valor: '@_japlanejados',
+      icone: '◎',
+      link: 'https://www.instagram.com/_japlanejados/',
+    },
+    {
       titulo: 'Endereço',
       valor: 'São Paulo, SP',
       icone: '📍',
@@ -105,7 +111,7 @@ export default function Contato() {
       {/* Informações de Contato */}
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
             {contatoInfo.map((info, idx) => (
               <a
                 key={idx}

@@ -1,5 +1,6 @@
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+  const instagramUrl = 'https://www.instagram.com/_japlanejados/';
 
   return (
     <footer className="bg-gray-900 py-12 text-white">
@@ -25,54 +26,43 @@ export default function Footer() {
           <div>
             <h4 className="mb-4 text-lg font-bold">Contato</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>📞 (11) 98765-4321</li>
-              <li>📧 contato@jamoveis.com.br</li>
-              <li>📍 São Paulo, SP</li>
-              <li>⏰ Seg-Sex: 9h às 19h</li>
+              <li>Telefone: (11) 98765-4321</li>
+              <li>Email: contato@jamoveis.com.br</li>
+              <li>São Paulo, SP</li>
+              <li>Seg-Sex: 9h às 19h</li>
             </ul>
           </div>
 
           <div>
             <h4 className="mb-4 text-lg font-bold">Redes Sociais</h4>
-            <div className="flex gap-4">
-              <a
-                href="https://www.instagram.com/_japlanejados/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 transition hover:text-white"
-                aria-label="Instagram JÁ Planejados"
-                title="@_japlanejados"
+            <a
+              href={instagramUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 text-gray-400 transition hover:text-white"
+              aria-label="Abrir Instagram @_japlanejados"
+              title="@_japlanejados"
+            >
+              <svg
+                className="h-7 w-7"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
               >
-                <span className="text-2xl">📸</span>
-              </a>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 transition hover:text-white"
-                aria-label="Facebook"
-              >
-                <span className="text-2xl">f</span>
-              </a>
-              <a
-                href="https://pinterest.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 transition hover:text-white"
-                aria-label="Pinterest"
-              >
-                <span className="text-2xl">📌</span>
-              </a>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 transition hover:text-white"
-                aria-label="YouTube"
-              >
-                <span className="text-2xl">▶️</span>
-              </a>
-            </div>
+                <rect
+                  x="3"
+                  y="3"
+                  width="18"
+                  height="18"
+                  rx="5"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                />
+                <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="2" />
+                <circle cx="17.5" cy="6.5" r="1.25" fill="currentColor" />
+              </svg>
+              <span className="text-sm font-medium">@_japlanejados</span>
+            </a>
           </div>
         </div>
 
