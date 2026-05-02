@@ -28,7 +28,7 @@
             <ul className="space-y-2 text-sm text-gray-400">
               <li>Telefone: (75) 98349-4179</li>
               <li>Email: contato@jamoveis.com.br</li>
-              <li>São Paulo, SP</li>
+              <li>Avenida Luiz Eduardo Magalhães, Nº 107 - Jeremoabo, BA</li>
               <li>Seg-Sex: 9h às 19h</li>
             </ul>
           </div>

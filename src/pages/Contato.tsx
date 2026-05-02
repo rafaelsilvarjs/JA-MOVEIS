@@ -57,7 +57,7 @@ export default function Contato() {
     },
     {
       titulo: 'Endereço',
-      valor: 'São Paulo, SP',
+      valor: 'Avenida Luiz Eduardo Magalhães, Nº 107 - Jeremoabo, BA',
       icone: '📍',
       link: '#',
     },
